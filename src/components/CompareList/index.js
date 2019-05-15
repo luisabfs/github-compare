@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import { Container, Repository } from './styles';
 
@@ -30,5 +31,9 @@ const CompareList = ({ repositories }) => (
     ))}
   </Container>
 );
+
+CompareList.propTypes = {
+  repositories: PropTypes.objectOf(PropTypes.shape).isRequired,
+};
 
 export default CompareList;

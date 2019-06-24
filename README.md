@@ -1,6 +1,6 @@
 # Github Compare
 
-[!alt text]()
+![alt text](src/assets/print.png)
 
 ## Main functionalities
 
